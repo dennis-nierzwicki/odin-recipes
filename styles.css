@@ -50,6 +50,12 @@
   #root, #__next {
     isolation: isolate;
   }
+
+body  {
+  width: 75%;
+  margin: 0 auto;
+}
+
 .odin-content   {
     padding: 2em;
 }
@@ -59,11 +65,15 @@
     font-size: 30px;
     font-weight: 800;
     text-align: center;
+    padding: 36px 0;
+    background: rgb(221, 221, 221);
 }
 
 .odin-heading-2  {
     font-family: 'Arial', sans-serif;
     font-size: 20px;
+    padding: 15px;
+    text-align: center;
 }
 
 .odin-heading-3  {
@@ -81,25 +91,29 @@
 
 .odin-link  {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     transition: all .3s;
+    padding: 25px;
+    margin: 15px 0;
+    background: rgb(54, 54, 54);
+    display: block;
 }
 
 .odin-link:hover,
 .odin-link:active,
 .odin-link:focus  {
-    color: rgb(64, 64, 160);
+    color: rgb(251, 23, 23);
     font-size: 16px;
 }
 
 .odin-list  {
     font-family: 'Arial', sans-serif;
     font-size: 14px;
-    padding: 20px;
 }
 
 .odin-list.odin-nav {
     list-style-type: none;
+    padding: 0;
 }
 
 .odin-image {
